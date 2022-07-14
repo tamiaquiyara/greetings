@@ -18,7 +18,7 @@ const Greet = Greetings(greetNames);
 
 greetMeBtn.addEventListener("click", () => {
 
-    var languageRadioBtn = document.querySelector("input[name='language']:checked");
+    var languageRadioBtn = document.querySelector("input[name='TheLanguage']:checked");
     let nameWithoutChar = /^[A-z]+$/.test(nameEntered.value);
     // alert(languageRadioBtn);
     // alert(nameEntered);
