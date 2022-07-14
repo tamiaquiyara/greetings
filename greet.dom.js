@@ -20,8 +20,8 @@ greetMeBtn.addEventListener("click", () => {
 
     var languageRadioBtn = document.querySelector("input[name='language']:checked");
     let nameWithoutChar = /^[A-z]+$/.test(nameEntered.value);
-    alert(languageRadioBtn);
-    alert(nameEntered);
+    // alert(languageRadioBtn);
+    // alert(nameEntered);
 
     if (nameWithoutChar == true || !nameEntered.value) {
 
