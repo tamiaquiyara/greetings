@@ -22,44 +22,34 @@ h1{
     /* color: lightblue; */
 }
 
-.language{
+.Language{
     color: rgb(21, 110, 139);
+    display: flex;
+    justify-content: center;
 }
 
 .eng{
     display: flex;
-    justify-content: center;
+    margin-right: 10px;
 }
 
-.englishRadio{
-    margin-top: 1.8em;
-    margin-right: 1em;
-}
 
 .ger{
     display: flex;
-    justify-content: center;
+    margin-right: 10px;
 }
 
-.germanRadio{
-    margin-top: 1.8em;
-    margin-right: 1em;
-}
+
 
 .esp{
     display: flex;
-    justify-content: center;
 } 
 
- .espRadio{
-    margin-top: 1.8em;
-    margin-right: 1em;
-}
+ 
 
-.radio{
+/* .radio{
     margin: 20px;
-    
-}
+} */
 
 .btn{
     text-align: center;

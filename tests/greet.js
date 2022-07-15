@@ -1,6 +1,7 @@
 function Greetings(list) {
 
     var localStorageNames = list || []
+    let nameWithoutChar = /^[A-z]+$/.test();
 
 
     function greet(personName, language) {
@@ -14,15 +15,18 @@ function Greetings(list) {
         }
     }
 
-    function errorMessege(name) {
+    function errorMessage(name) {
         if (localStorageNames.includes(name)) {
             return true
         }
         return false
     }
+        setTimeout(errorMessage, 1000);
+
+    
 
     function setNames(personName) {
-        if (errorMessege(personName) === false) {
+        if (errorMessage(personName) === false) {
             localStorageNames.push(personName)
             return true
         }
@@ -45,6 +49,7 @@ function Greetings(list) {
         setNames,
         getNames,
         nameCount,
-        errorMessege,
+        errorMessage,
+        nameWithoutChar
     }
 }
