@@ -2,7 +2,7 @@ function Greetings(list) {
 
     var localStorageNames = list || []
     let nameWithoutChar = /^[A-z]+$/.test();
-
+    
 
     function greet(personName, language) {
 
