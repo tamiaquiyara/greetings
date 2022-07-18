@@ -20,8 +20,10 @@ function Greetings(list) {
             return true
         }
         return false
+
+        
     }
-        setTimeout(errorMessage, 1000);
+        
 
     
 

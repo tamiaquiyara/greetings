@@ -84,9 +84,29 @@ h1{
     display: flex;
 }
 
+.error {
+    color: rgb(163, 35, 35);
+
+}
+
+
+@media only screen and (max-width: 1440px){
+
+    .buttons{
+        margin-left: 590px;
+    }
+} 
+
+@media only screen and (max-width: 1024px){
+
+    .buttons{
+        margin-left: 385px;
+    }
+} 
+
 @media only screen and (max-width: 600px){
 
     .buttons{
-        margin-left: 70px;
+        margin-left: 95px;
     }
 } 
