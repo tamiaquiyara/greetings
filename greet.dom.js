@@ -36,7 +36,7 @@ greetMeBtn.addEventListener("click", () => {
             var lang = languageRadioBtn.value
             let copies = Greet.setNames(nameEntered.value)
             greetMessage.classList.remove('error');
-
+            document.querySelector(".counter").innerHTML = Greet.nameCount()
 
             if (copies === true) {
                 greetMessage.classList.remove('error');
